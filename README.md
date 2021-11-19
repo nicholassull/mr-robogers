@@ -48,6 +48,12 @@ Test: .push() values of inputted array into newArray, but if an element in the a
 Code: friendlyRobot(['1', '2', '3', '4', '33']) 
 Expected Result: ['1', '2', 'Won't you be my neighbor?', '4', 'Won't you be my neighbor?']
 ```
+```
+Describe: friendlyRobot()
+Test: else if the element contains '2' .push('Boop!") to newArray
+Code: friendlyRobot(['1', '2', '3', '4', '204']) 
+Expected Result: ['1', 'Boop!', 'Won't you be my neighbor?', '4', 'Boop!']
+```
 ## Known Bugs
 
 * _No known bugs at this time._
