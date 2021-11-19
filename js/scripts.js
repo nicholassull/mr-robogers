@@ -29,8 +29,9 @@ function friendlyRobot (numberArray) {
 $(document).ready(function() {
   $("#input-form").submit(function(event) {
     const userNumber = $("#input-number").val();
-
+    $(".hidden").hide();
     $("#output-span").text(friendlyRobot(arrayMaker(userNumber)));
+    $("#output-div").fadeIn()
 
     event.preventDefault();
   });
