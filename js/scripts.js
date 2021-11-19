@@ -22,14 +22,16 @@ function friendlyRobot (numberArray) {
       newArray.push(element);
     }
   });
-  return newArray
+  return newArray.join(", ");
 }
 
 // === User Logic ===
 $(document).ready(function() {
   $("#input-form").submit(function(event) {
     const userNumber = $("#input-number").val();
-    
+
+    console.log(friendlyRobot(arrayMaker(userNumber)));
+
     event.preventDefault();
   });
 })

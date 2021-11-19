@@ -49,6 +49,10 @@ Expected Result: ['1', 'Boop!', 'Won't you be my neighbor?', '4', 'Boop!']
 Test: It should include an else if statement for an element that contains '1', then .push('Beep!") to newArray
 Code: friendlyRobot(['1', '2', '3', '4', '204']) 
 Expected Result: [ 'Beep!', 'Boop!', 'Won't you be my neighbor?', '4', 'Boop!' ]
+
+Test: It should return one string containing the specified values instead of an array.
+Code: friendlyRobot(['1', '2', '3', '4', '204']) 
+Expected Result: 'Beep! Boop! Won't you be my neighbor? 4 Boop!' 
 ```
 ## Known Bugs
 
