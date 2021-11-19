@@ -7,6 +7,6 @@ function arrayMaker(input) {
   return numberArray;
 }
 
-function friendlyRobot (input) {
-
+function friendlyRobot (numberArray) {
+  numberArray.forEach()
 }
