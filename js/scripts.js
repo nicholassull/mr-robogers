@@ -1,3 +1,5 @@
+// === Business Logic ===
+
 function arrayMaker(input) {
   let numberArray= []
   const maxNumber = parseInt(input);
@@ -22,3 +24,8 @@ function friendlyRobot (numberArray) {
   });
   return newArray
 }
+
+// === User Logic ===
+$(document).ready(function() {
+  
+})
