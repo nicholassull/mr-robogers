@@ -28,7 +28,8 @@ function friendlyRobot (numberArray) {
 // === User Logic ===
 $(document).ready(function() {
   $("#input-form").submit(function(event) {
-
+    const userNumber = $("#input-number").val();
+    
     event.preventDefault();
   });
 })
