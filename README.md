@@ -19,7 +19,7 @@ __
 > git clone https://github.com/nicholassull/portfolio-landing
 * _Open index.html_
 
-## Tests
+## Specs
 #### Describe: arrayMaker()
 ```
 Test: It should console.log the value of i for each run of the loop.
