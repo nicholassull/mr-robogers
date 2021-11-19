@@ -30,7 +30,7 @@ $(document).ready(function() {
   $("#input-form").submit(function(event) {
     const userNumber = $("#input-number").val();
 
-    console.log(friendlyRobot(arrayMaker(userNumber)));
+    $("#output-span").text(friendlyRobot(arrayMaker(userNumber)));
 
     event.preventDefault();
   });
