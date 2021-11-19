@@ -1,8 +1,10 @@
 function arrayMaker(input) {
-  let maxNumber = parseInt(input);
+  let numberArray= []
+  const maxNumber = parseInt(input);
   for (let i = 0; i <= maxNumber; i +=1) {
-    console.log(i);
+    numberArray.push(i.toString());
   }
+  return numberArray;
 }
 
 function friendlyRobot (input) {

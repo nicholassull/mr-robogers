@@ -26,6 +26,12 @@ Test: Input a number into function and have it console.log the value of i for ea
 Code:arrayMaker("3")
 Expected Result: 0, 1, 2, 3
 ```
+```
+Describe: arrayMaker()
+Test: Create an array with all values between 0 and the given number as strings.
+Code:arrayMaker("3")
+Expected Result: ['0', '1', '2', '3']
+```
 
 ## Known Bugs
 
