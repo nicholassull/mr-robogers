@@ -27,5 +27,5 @@ function friendlyRobot (numberArray) {
 
 // === User Logic ===
 $(document).ready(function() {
-  
+  $
 })

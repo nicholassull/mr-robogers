@@ -20,43 +20,33 @@ __
 * _Open index.html_
 
 ## Tests
-#### arrayMaker()
+#### Describe: arrayMaker()
 ```
-Describe: arrayMaker()
-Test: Input a number into function and have it console.log the value of i for each run of the loop.
+Test: It should console.log the value of i for each run of the loop.
 Code:arrayMaker("3")
 Expected Result: 0, 1, 2, 3
-```
-```
-Describe: arrayMaker()
-Test: Create an array with all values between 0 and the given number as strings.
+
+Test: It should create an array with all values between 0 and the given number as strings.
 Code:arrayMaker("3")
 Expected Result: ['0', '1', '2', '3']
 ```
-#### friendlyRobot()
+#### Describe: friendlyRobot()
 ```
-Describe: friendlyRobot()
-Test: If an element in the array contains '0', console.log("Found it!);
+Test: If an element in the array contains '0', it should console.log("Found it!);
 Code:friendlyRobot(['1', '0', '20', '3'])
 Expected Result: 
 'Found it!'
 'Found it!'
-```
-```
-Describe: friendlyRobot()
-Test: .push() values of inputted array into newArray, but if an element in the array contains '3', push "Won't you be my neighbor?" instead. Return newArray
+
+Test: It should .push() values of inputted array into newArray, but if an element in the array contains '3', push "Won't you be my neighbor?" instead. Return newArray
 Code: friendlyRobot(['1', '2', '3', '4', '33']) 
 Expected Result: ['1', '2', 'Won't you be my neighbor?', '4', 'Won't you be my neighbor?']
-```
-```
-Describe: friendlyRobot()
-Test: else if the element contains '2' .push('Boop!") to newArray
+
+Test: It should include an else if statement for an element that contains '2', then .push('Boop!") to newArray
 Code: friendlyRobot(['1', '2', '3', '4', '204']) 
 Expected Result: ['1', 'Boop!', 'Won't you be my neighbor?', '4', 'Boop!']
-```
-```
-Describe: friendlyRobot()
-Test: else if the element contains '1' .push('Beep!") to newArray
+
+Test: It should include an else if statement for an element that contains '1', then .push('Beep!") to newArray
 Code: friendlyRobot(['1', '2', '3', '4', '204']) 
 Expected Result: [ 'Beep!', 'Boop!', 'Won't you be my neighbor?', '4', 'Boop!' ]
 ```
