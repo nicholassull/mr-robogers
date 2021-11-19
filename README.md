@@ -42,7 +42,12 @@ Expected Result:
 'Found it!'
 'Found it!'
 ```
-
+```
+Describe: friendlyRobot()
+Test: .push() values of inputted array into newArray, but if an element in the array contains '3', push "Won't you be my neighbor?" instead. Return newArray
+Code: friendlyRobot(['1', '2', '3', '4', '33']) 
+Expected Result: ['1', '2', 'Won't you be my neighbor?', '4', 'Won't you be my neighbor?']
+```
 ## Known Bugs
 
 * _No known bugs at this time._
