@@ -8,5 +8,9 @@ function arrayMaker(input) {
 }
 
 function friendlyRobot (numberArray) {
-  numberArray.forEach()
+  numberArray.forEach(function(element) {
+    if (element.includes("0")) {
+      console.log('Found it!')
+    }
+  });
 }

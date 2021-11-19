@@ -20,6 +20,7 @@ __
 * _Open index.html_
 
 ## Tests
+#### arrayMaker()
 ```
 Describe: arrayMaker()
 Test: Input a number into function and have it console.log the value of i for each run of the loop.
@@ -31,6 +32,15 @@ Describe: arrayMaker()
 Test: Create an array with all values between 0 and the given number as strings.
 Code:arrayMaker("3")
 Expected Result: ['0', '1', '2', '3']
+```
+#### friendlyRobot()
+```
+Describe: friendlyRobot()
+Test: If an element in the array contains '0', console.log("Found it!);
+Code:friendlyRobot(['1', '0', '20', '3'])
+Expected Result: 
+'Found it!'
+'Found it!'
 ```
 
 ## Known Bugs
