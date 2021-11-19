@@ -27,5 +27,8 @@ function friendlyRobot (numberArray) {
 
 // === User Logic ===
 $(document).ready(function() {
-  $
+  $("#input-form").submit(function(event) {
+
+    event.preventDefault();
+  });
 })
