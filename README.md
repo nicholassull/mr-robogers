@@ -54,6 +54,12 @@ Test: else if the element contains '2' .push('Boop!") to newArray
 Code: friendlyRobot(['1', '2', '3', '4', '204']) 
 Expected Result: ['1', 'Boop!', 'Won't you be my neighbor?', '4', 'Boop!']
 ```
+```
+Describe: friendlyRobot()
+Test: else if the element contains '1' .push('Beep!") to newArray
+Code: friendlyRobot(['1', '2', '3', '4', '204']) 
+Expected Result: [ 'Beep!', 'Boop!', 'Won't you be my neighbor?', '4', 'Boop!' ]
+```
 ## Known Bugs
 
 * _No known bugs at this time._
