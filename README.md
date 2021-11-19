@@ -19,6 +19,13 @@ __
 > git clone https://github.com/nicholassull/portfolio-landing
 * _Open index.html_
 
+## Tests
+```
+Describe: arrayMaker()
+Test: Input a number into function and have it console.log the value of i for each run of the loop.
+Code:arrayMaker("3")
+Expected Result: 0, 1, 2, 3
+```
 
 ## Known Bugs
 
