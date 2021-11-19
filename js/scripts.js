@@ -31,7 +31,7 @@ $(document).ready(function() {
     const userNumber = $("#input-number").val();
     $(".hidden").hide();
     $("#output-span").text(friendlyRobot(arrayMaker(userNumber)));
-    $("#output-div").fadeIn()
+    $("#output-span").fadeIn()
 
     event.preventDefault();
   });
