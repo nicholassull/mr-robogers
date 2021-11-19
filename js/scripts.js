@@ -12,10 +12,8 @@ function friendlyRobot (numberArray) {
   numberArray.forEach(function(element) {
     if (element.includes('3')) {
       newArray.push("Won't you be my neighbor?");
-      console.log(newArray);
-    } else {
-      newArray.push(element);
-      console.log(newArray);
+    } else if (element.includes('2')) {
+      newArray.push("Boop!");
     }
     return newArray;
   });
