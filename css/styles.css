@@ -1,12 +1,17 @@
 body {
   background-color: rgb(250, 211, 166);
 }
-
 .container{
   max-width: 900px;
   margin: auto, 0px;
 }
-
 .hidden {
   display: none;
+}
+#output-div {
+  text-align: center;
+}
+#welcome {
+  font-size: 1.2em;
+  font-weight: 700;
 }
