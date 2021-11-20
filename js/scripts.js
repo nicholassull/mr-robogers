@@ -33,6 +33,7 @@ $(document).ready(function() {
     $("#output-span").text(friendlyRobot(arrayMaker(userNumber)));
     $("#output-span").fadeIn()
 
+    window.scrollTo(0,document.body.scrollHeight);
     event.preventDefault();
   });
 })
