@@ -45,17 +45,20 @@ Expected Result:
 'Found it!'
 ```
 ```
-Test: It should .push() values of inputted array into newArray, but if an element in the array contains '3', push "Won't you be my neighbor?" instead. Return newArray
+Test: It should .push() values of inputted array into newArray, but if an element 
+in the array contains '3', push "Won't you be my neighbor?" instead, Return newArray
 Code: friendlyRobot(['1', '2', '3', '4', '33']) 
 Expected Result: ['1', '2', 'Won't you be my neighbor?', '4', 'Won't you be my neighbor?']
 ```
 ```
-Test: It should include an else if statement for an element that contains '2', then .push('Boop!") to newArray
+Test: It should include an else if statement for an element that contains '2', then 
+.push('Boop!") to newArray
 Code: friendlyRobot(['1', '2', '3', '4', '204']) 
 Expected Result: ['1', 'Boop!', 'Won't you be my neighbor?', '4', 'Boop!']
 ```
 ```
-Test: It should include an else if statement for an element that contains '1', then .push('Beep!") to newArray
+Test: It should include an else if statement for an element that contains '1', then 
+.push('Beep!") to newArray
 Code: friendlyRobot(['1', '2', '3', '4', '204']) 
 Expected Result: [ 'Beep!', 'Boop!', 'Won't you be my neighbor?', '4', 'Boop!' ]
 ```
