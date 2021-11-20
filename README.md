@@ -1,8 +1,8 @@
-# _Title_
+# _Mr. Robogers, the Friendly Robot._
 
 #### By _**Nick Sullivan**_
 
-#### _Short description_
+#### _A friendly robot's attempt at conversation._
 
 ## Technologies Used
 
@@ -10,13 +10,13 @@
 
 ## Description
 
-__
+_This website will receive the user's name and any number of the user's choice. When these two are submitted, the user will see a friendly greeting, as well as a string of numbers. The string of numbers includes all number between 0 and the inputted number, with number including 1, 2, and 3, replaced with different friendly robot phrases._
 
 ## Setup Instructions
 
 * _Open your terminal and navigate to the folder you'd like to download the files into._
 * _Run the command below_
-> git clone https://github.com/nicholassull/portfolio-landing
+> git clone https://github.com/nicholassull/mr-robogers.git
 * _Open index.html_
 
 ## Specs
