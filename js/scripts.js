@@ -29,10 +29,9 @@ function friendlyRobot (numberArray) {
 $(document).ready(function() {
   $("#input-form").submit(function(event) {
     const userNumber = $("#input-number").val();
-    const userName = $("input-name").val();
+    const userName = $("#input-name").val();
     $(".hidden").hide();
-    $
-    $("#output-span").text(friendlyRobot(arrayMaker(userNumber)));
+    $("#output-span").text("Hello, "+userName+"!... "+friendlyRobot(arrayMaker(userNumber)));
     $("#output-span").fadeIn()
 
     window.scrollTo(0,document.body.scrollHeight);
