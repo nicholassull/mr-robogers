@@ -8,15 +8,26 @@ body {
 .hidden {
   display: none;
 }
-#output-div {
-  text-align: center;
-  margin: 10px 10px 30px 10px;
-}
-
 #intro {
   padding: 20px;
 }
 #welcome {
   font-size: 1.2em;
   font-weight: 700;
+}
+#output-div {
+  text-align: center;
+  margin: 10px 10px 30px 10px;
+}
+
+.btn {
+  background-color: rgb(122, 185, 187);
+}
+
+.btn:hover {
+  background-color: cornflowerblue;
+}
+
+.btn:active {
+  color: rgb(100, 102, 131);
 }
