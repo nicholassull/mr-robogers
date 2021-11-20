@@ -11,6 +11,10 @@ body {
 #output-div {
   text-align: center;
 }
+
+#intro {
+  padding: 20px;
+}
 #welcome {
   font-size: 1.2em;
   font-weight: 700;
