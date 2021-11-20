@@ -11,6 +11,8 @@ body {
 
 .jumbotron {
   margin-top: 10px;
+  background-color: rgb(197, 99, 86);
+  border: rgb(235, 167, 91) outset 4px;
 }
 #intro {
   padding: 20px;
@@ -23,10 +25,12 @@ form {
   background-color: rgb(235, 167, 91);
   padding: 18px;
   border-radius: 10px;
+  border: rgb(197, 99, 86) outset 4px;
 }
 #output-div {
   text-align: center;
   margin: 10px 10px 30px 10px;
+
 }
 
 .btn {
