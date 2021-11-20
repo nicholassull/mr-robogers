@@ -1,4 +1,8 @@
-body{
+body {
+  background-color: rgb(250, 211, 166);
+}
+
+.container{
   max-width: 900px;
   margin: auto, 0px;
 }
