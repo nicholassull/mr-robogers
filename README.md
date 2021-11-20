@@ -6,7 +6,11 @@
 
 ## Technologies Used
 
-* __
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _JavaScript_
+* _jQuery_
 
 ## Description
 
@@ -25,6 +29,8 @@ _This website will receive the user's name and any number of the user's choice. 
 Test: It should console.log the value of i for each run of the loop.
 Code:arrayMaker("3")
 Expected Result: 0, 1, 2, 3
+```
+```
 
 Test: It should create an array with all values between 0 and the given number as strings.
 Code:arrayMaker("3")
